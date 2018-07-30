@@ -1,0 +1,83 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    capybara (3.4.2)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      xpath (~> 3.1)
+    coderay (1.1.2)
+    concurrent-ruby (1.0.5)
+    connection_pool (2.2.2)
+    erubi (1.7.1)
+    ffi (1.9.25)
+    method_source (0.9.0)
+    mini_mime (1.0.0)
+    mini_portile2 (2.3.0)
+    minitest (5.11.3)
+    minitest-hooks (1.5.0)
+      minitest (> 5.3)
+    nokogiri (1.8.4)
+      mini_portile2 (~> 2.3.0)
+    pg (1.0.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    public_suffix (3.0.2)
+    puma (3.12.0)
+    rack (2.0.5)
+    rack-protection (2.0.3)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rack-unreloader (1.6.0)
+    rb-fsevent (0.10.3)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
+    redis (4.0.1)
+    refrigerator (1.1.0)
+    roda (3.10.0)
+      rack
+    sass (3.5.7)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    sequel (5.10.0)
+    sequel_pg (1.11.0)
+      pg (>= 0.18.0)
+      sequel (>= 4.38.0)
+    sidekiq (5.1.3)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
+    tilt (2.0.8)
+    xpath (3.1.0)
+      nokogiri (~> 1.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capybara
+  erubi (>= 1.5)
+  minitest (>= 5.7.0)
+  minitest-hooks (>= 1.1.0)
+  pry
+  puma
+  rack-unreloader
+  refrigerator (>= 1)
+  roda (>= 3.10)
+  sass (>= 3)
+  sequel (>= 5)
+  sequel_pg (>= 1.8)
+  sidekiq
+  tilt (>= 2.0.6)
+
+BUNDLED WITH
+   1.16.1
